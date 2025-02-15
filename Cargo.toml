@@ -3,8 +3,13 @@ name = "ff"
 version = "0.1.0"
 edition = "2021"
 
+# Enabled for cargo-flamegraph
+[profile.release]
+debug = true
+
 [dependencies]
 regex = "1.11.1"
+walkdir = "2.5.0"
 
 [lints.clippy]
 all = "warn"
