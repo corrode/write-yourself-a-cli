@@ -8,6 +8,7 @@ edition = "2021"
 debug = true
 
 [dependencies]
+jwalk = "0.8.1"
 regex = "1.11.1"
 walkdir = "2.5.0"
 

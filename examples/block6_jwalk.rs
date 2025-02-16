@@ -1,16 +1,3 @@
-//! Welcome to this Rust workshop. The goal is to create a simple file finder
-//! that will print all files matching a given pattern in a given directory
-//! and its subdirectories.
-//!
-//! The first step is to create a program that will list all files in the current
-//! directory and its subdirectories.
-//!
-//! Have fun!
-
-// fn main() {
-//     todo!("List all files in the current directory and its subdirectories");
-// }
-
 use jwalk::{DirEntryIter, WalkDir};
 use regex::Regex;
 use std::{
