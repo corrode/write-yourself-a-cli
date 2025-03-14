@@ -58,7 +58,7 @@ Pick whatever you like from the list below or come up with your own ideas:
 - "Smart Replace" - Find and rename files with regex capture groups:
   ff "test_(.+)\.py" --rename "{}_{datetime}_{1}.py"
 - Xargs mode: 
-  ff "\.json$" --chain "jq . {} | grep error"
+  `ff "\.json$" --chain "jq . {} | grep error"`
 
 ## Show And Tell!
 
