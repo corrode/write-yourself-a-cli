@@ -1,4 +1,4 @@
-# A Fast File Finder in Rust 
+# Write Yourself a CLI &ndash; A Fast File Finder in Rust 
 
 ![Course banner](assets/banner.png)
 
